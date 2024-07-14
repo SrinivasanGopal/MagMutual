@@ -1,0 +1,5 @@
+org\magmutual\UserDetails.class
+org\magmutual\UserinfosApplication.class
+org\magmutual\UserController.class
+org\magmutual\UserRepository.class
+org\magmutual\ReadCsvFile.class
