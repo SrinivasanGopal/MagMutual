@@ -56,7 +56,7 @@ class UserController {
   
 // Users with Firstname starting
   @GetMapping("/api/users/fname/{fname}")
-  public List<UserDetails> userByDateRange(@PathVariable String fname) {
+  public List<UserDetails> userByFirstName(@PathVariable String fname) {
     return repository.findByFirstname(fname);
   }
 
